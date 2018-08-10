@@ -33,7 +33,7 @@ def display_board(board)
 end
 
 def move(board,index,char="X")
-  puts"indes is #{index}"
+
   board[index]=char
 end
   
@@ -55,6 +55,7 @@ def turn(board)
 
     if valid_move?(board, input)
      board= move(board,input,char)
+     puts"#{board}"
      display_board(board)
     else
       turn(board)

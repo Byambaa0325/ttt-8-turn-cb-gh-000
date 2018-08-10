@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if exists? and !position_taken
+  if exists?(index) and !position_taken(board, index)
     return true
   end
   return false

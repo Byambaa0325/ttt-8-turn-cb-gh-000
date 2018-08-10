@@ -14,9 +14,9 @@ end
 
 def position_taken?(board, index)
   if board[index]==" "
-    return true
+    return false
   end
-  return false
+  return true
 end
 
 def input_to_index(index)

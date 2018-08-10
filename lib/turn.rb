@@ -52,7 +52,7 @@ def turn(board)
     input = input_to_index(input)
     char = char_choose(counter)
 
-    if valid_move?
+    if valid_move?(board, input)
      board= move(board,input,char)
     end
     counter+=1

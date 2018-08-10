@@ -61,3 +61,5 @@ def turn(board)
     counter+=1
   end
 end
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+turn(board)

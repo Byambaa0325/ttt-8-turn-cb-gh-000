@@ -20,7 +20,7 @@ def position_taken?(board, index)
 end
 
 def input_to_index(index)
-  
+  puts"index is #{index.to_i-1}"
   return index.to_i-1
 end
 

@@ -54,6 +54,7 @@ def turn(board)
 
     if valid_move?(board, input)
      board= move(board,input,char)
+     display_board(board)
     else
       turn(board)
     end

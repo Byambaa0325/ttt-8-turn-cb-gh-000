@@ -35,6 +35,7 @@ end
 def move(board,index,char="X")
 
   board[index]=char
+  return board
 end
   
 def char_choose(count)

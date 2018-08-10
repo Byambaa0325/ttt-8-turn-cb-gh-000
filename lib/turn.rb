@@ -33,6 +33,7 @@ def display_board(board)
 end
 
 def move(board,index,char="X")
+  puts"indes is #{index}"
   board[index]=char
 end
   
